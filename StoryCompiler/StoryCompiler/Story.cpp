@@ -1,7 +1,10 @@
-#include <string>
+#include "Story.h"
 
 using namespace std;
 
+const string FLAGS = "[-ixlafcr]";
+const string USAGE =
+"Usage: Pascal execute|compile " + FLAGS + " <source file path>";
 
 int main(int argc, char *args[])
 {
@@ -26,7 +29,7 @@ int main(int argc, char *args[])
 		if (i < argc)
 		{
 			string path = args[i];
-			Pascal(operation, path, flags);
+			Story(operation, path, flags);
 		}
 		else
 		{
@@ -41,3 +44,13 @@ int main(int argc, char *args[])
 	return 0;
 }
 
+Story::Story(string operation, string file_path, string flags)
+	throw (string)
+{
+	ifstream input;
+	/*input.open(file_path);
+	if (input.fail())
+	{
+		throw string("Failed to open source file " + file_path);
+	}*/
+}
