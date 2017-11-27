@@ -13,7 +13,7 @@ class Story : public MessageListener
 public:
 	/**
 	* Constructor.
-	* Compile or interpret a Pascal source program.
+	* Compile or interpret a Story source program.
 	* @param operation either "compile" or "execute".
 	* @param filePath the source file path.
 	* @param flags the command line flags.

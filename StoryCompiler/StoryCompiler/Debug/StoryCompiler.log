@@ -1,4 +1,3 @@
-﻿  Story.cpp
-Story.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall Story::~Story(void)" (??1Story@@UAE@XZ) referenced in function "public: virtual void * __thiscall Story::`scalar deleting destructor'(unsigned int)" (??_GStory@@UAEPAXI@Z)
-Story.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Story::message_received(class Message &)" (?message_received@Story@@UAEXAAVMessage@@@Z)
-c:\users\khoalaz\documents\visual studio 2017\Projects\StoryCompiler\Debug\StoryCompiler.exe : fatal error LNK1120: 2 unresolved externals
+﻿  Source.cpp
+  StoryCompiler.vcxproj -> c:\users\khoalaz\documents\visual studio 2017\Projects\StoryCompiler\Debug\StoryCompiler.exe
+  StoryCompiler.vcxproj -> c:\users\khoalaz\documents\visual studio 2017\Projects\StoryCompiler\Debug\StoryCompiler.pdb (Partial PDB)

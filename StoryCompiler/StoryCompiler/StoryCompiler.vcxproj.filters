@@ -21,14 +21,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Story.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Message.cpp">
       <Filter>Resource Files\Messages</Filter>
     </ClCompile>
     <ClCompile Include="MessageHandler.cpp">
       <Filter>Resource Files\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
