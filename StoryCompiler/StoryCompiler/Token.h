@@ -1,6 +1,8 @@
+#pragma once
 #pragma warning( disable : 4290 )
 
 #include "Source.h"
+#include "DataValue.h"
 
 enum class TokenType
 {
@@ -43,7 +45,7 @@ public:
 	* Getter.
 	* @return the token value.
 	*/
-	//DataValue* get_value();			*************
+	DataValue* get_value();
 
 	/**
 	* Getter.
@@ -60,7 +62,7 @@ public:
 protected:
 	TokenType type;    // language-specific token type
 	string text;       // token text
-	//DataValue *value;  // token value					***********************
+	DataValue *value;  // token value
 	Source *source;    // source
 	int line_number;   // line number of the token's source line
 	int position;      // position of the first token character

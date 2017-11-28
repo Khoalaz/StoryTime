@@ -39,6 +39,12 @@
     <ClCompile Include="Source.cpp">
       <Filter>Resource Files\FrontEnd</Filter>
     </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Resource Files\FrontEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanner.cpp">
+      <Filter>Resource Files\FrontEnd</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MessageListener.h">
@@ -58,6 +64,15 @@
     </ClInclude>
     <ClInclude Include="Story.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Header Files\FrontEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="DataValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanner.h">
+      <Filter>Header Files\FrontEnd</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

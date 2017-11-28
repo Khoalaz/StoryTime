@@ -1,4 +1,6 @@
+#pragma once
 #pragma warning( disable : 4290 )
+
 #include <iostream>
 #include <fstream>
 #include <string>
