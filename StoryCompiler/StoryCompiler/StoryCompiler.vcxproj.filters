@@ -19,6 +19,12 @@
     <Filter Include="Resource Files\Messages">
       <UniqueIdentifier>{f26a39e3-10d5-47bb-98d6-28c4e367bfdc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\FrontEnd">
+      <UniqueIdentifier>{f8df62c9-518f-4da6-98ba-57bae88878d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrontEnd">
+      <UniqueIdentifier>{c2a03f17-64c0-4aa6-85ef-3d4a5490cdd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Message.cpp">
@@ -27,14 +33,14 @@
     <ClCompile Include="MessageHandler.cpp">
       <Filter>Resource Files\Messages</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Story.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Resource Files\FrontEnd</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Story.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="MessageListener.h">
       <Filter>Header Files\Messages</Filter>
     </ClInclude>
@@ -46,6 +52,12 @@
     </ClInclude>
     <ClInclude Include="MessageHandler.h">
       <Filter>Header Files\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source.h">
+      <Filter>Header Files\FrontEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Story.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

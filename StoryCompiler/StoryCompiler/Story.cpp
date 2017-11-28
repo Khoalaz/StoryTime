@@ -72,7 +72,7 @@ Story::Story(string operation, string file_path, string flags)
 Story::~Story()
 {
 	//if (parser != nullptr) delete parser;
-	//if (source != nullptr) delete source;
+	if (source != nullptr) delete source;
 	//if (icode != nullptr) delete icode;
 	//if (symtab_stack != nullptr) delete symtab_stack;
 	//if (backend != nullptr) delete backend;

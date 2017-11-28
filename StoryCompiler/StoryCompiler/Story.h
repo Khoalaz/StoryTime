@@ -4,6 +4,7 @@
 #include <fstream>
 
 #include "MessageListener.h"
+#include "Source.h"
 
 
 using namespace std;
@@ -35,7 +36,7 @@ public:
 
 private:
 	//Parser      *parser;        // language-independent parser
-	//Source      *source;        // input file source
+	Source      *source;        // input file source
 	//ICode       *icode;         // generated intermediate code
 	//SymTabStack *symtab_stack;  // generated symbol table stack
 	//Backend     *backend;       // backend

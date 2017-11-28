@@ -1,4 +1,4 @@
-#pragma once
+#pragma warning( disable : 4290 )
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -71,12 +71,6 @@ public:
 	* @throw a string message if an error occurred.
 	*/
 	void skip_to_next_line() throw (string);
-
-	/**
-	* Close the source.
-	* @throw a string message if an error occurred.
-	*/
-	void close() throw (string);
 
 	/**
 	* Add a message listener to the listener list.
