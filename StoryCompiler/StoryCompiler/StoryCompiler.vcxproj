@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Message.cpp" />
     <ClCompile Include="MessageHandler.cpp" />
+    <ClCompile Include="Parser.cpp" />
     <ClCompile Include="Scanner.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Story.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="MessageHandler.h" />
     <ClInclude Include="MessageListener.h" />
     <ClInclude Include="MessageProducer.h" />
+    <ClInclude Include="Parser.h" />
     <ClInclude Include="Scanner.h" />
     <ClInclude Include="Source.h" />
     <ClInclude Include="Story.h" />

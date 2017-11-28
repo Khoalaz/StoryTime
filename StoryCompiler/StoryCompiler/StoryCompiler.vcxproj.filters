@@ -45,6 +45,9 @@
     <ClCompile Include="Scanner.cpp">
       <Filter>Resource Files\FrontEnd</Filter>
     </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Resource Files\FrontEnd</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MessageListener.h">
@@ -72,6 +75,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Scanner.h">
+      <Filter>Header Files\FrontEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
       <Filter>Header Files\FrontEnd</Filter>
     </ClInclude>
   </ItemGroup>
