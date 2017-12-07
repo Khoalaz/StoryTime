@@ -1,3 +1,7 @@
-﻿  Parser.cpp
-  StoryCompiler.vcxproj -> c:\users\khoalaz\documents\visual studio 2017\Projects\StoryCompiler\Debug\StoryCompiler.exe
-  StoryCompiler.vcxproj -> c:\users\khoalaz\documents\visual studio 2017\Projects\StoryCompiler\Debug\StoryCompiler.pdb (Partial PDB)
+﻿  ICodeFactory.cpp
+  Generating Code...
+  Compiling...
+  ICodeNodeImpl.cpp
+  Generating Code...
+  StoryCompiler.vcxproj -> C:\Users\KhoaLaZ\Documents\Visual Studio 2017\Projects\StoryCompiler\Debug\StoryCompiler.exe
+  StoryCompiler.vcxproj -> C:\Users\KhoaLaZ\Documents\Visual Studio 2017\Projects\StoryCompiler\Debug\StoryCompiler.pdb (Partial PDB)

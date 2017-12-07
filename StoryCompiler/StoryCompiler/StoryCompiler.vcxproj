@@ -139,6 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ICodeFactory.cpp" />
+    <ClCompile Include="ICodeImpl.cpp" />
+    <ClCompile Include="ICodeNodeImpl.cpp" />
     <ClCompile Include="Message.cpp" />
     <ClCompile Include="MessageHandler.cpp" />
     <ClCompile Include="Parser.cpp" />
@@ -149,6 +152,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataValue.h" />
+    <ClInclude Include="ICode.h" />
+    <ClInclude Include="ICodeFactory.h" />
+    <ClInclude Include="ICodeImpl.h" />
+    <ClInclude Include="ICodeNode.h" />
+    <ClInclude Include="ICodeNodeImpl.h" />
     <ClInclude Include="Message.h" />
     <ClInclude Include="MessageHandler.h" />
     <ClInclude Include="MessageListener.h" />
@@ -157,7 +165,12 @@
     <ClInclude Include="Scanner.h" />
     <ClInclude Include="Source.h" />
     <ClInclude Include="Story.h" />
+    <ClInclude Include="SymTab.h" />
+    <ClInclude Include="SymTabEntry.h" />
+    <ClInclude Include="SymTabStack.h" />
     <ClInclude Include="Token.h" />
+    <ClInclude Include="TypeFactory.h" />
+    <ClInclude Include="TypeSpec.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

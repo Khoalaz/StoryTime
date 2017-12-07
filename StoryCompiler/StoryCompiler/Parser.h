@@ -11,7 +11,7 @@
 //#include "SymTabFactory.h"
 //#include "ICode.h"
 
-class Parser : MessageProducer
+class Parser : public MessageProducer
 {
 public:
 	/**

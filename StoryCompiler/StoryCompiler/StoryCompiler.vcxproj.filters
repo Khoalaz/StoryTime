@@ -25,6 +25,12 @@
     <Filter Include="Resource Files\FrontEnd">
       <UniqueIdentifier>{c2a03f17-64c0-4aa6-85ef-3d4a5490cdd8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Intermediate">
+      <UniqueIdentifier>{7666a98c-bdfc-4d24-9e0c-675d578b06b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Intermediate">
+      <UniqueIdentifier>{08eda71a-85e6-41cf-a33a-170f467c4769}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Message.cpp">
@@ -47,6 +53,15 @@
     </ClCompile>
     <ClCompile Include="Parser.cpp">
       <Filter>Resource Files\FrontEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ICodeFactory.cpp">
+      <Filter>Resource Files\Intermediate</Filter>
+    </ClCompile>
+    <ClCompile Include="ICodeImpl.cpp">
+      <Filter>Resource Files\Intermediate</Filter>
+    </ClCompile>
+    <ClCompile Include="ICodeNodeImpl.cpp">
+      <Filter>Resource Files\Intermediate</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +94,36 @@
     </ClInclude>
     <ClInclude Include="Parser.h">
       <Filter>Header Files\FrontEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeFactory.h">
+      <Filter>Header Files\Intermediate</Filter>
+    </ClInclude>
+    <ClInclude Include="ICode.h">
+      <Filter>Header Files\Intermediate</Filter>
+    </ClInclude>
+    <ClInclude Include="ICodeNode.h">
+      <Filter>Header Files\Intermediate</Filter>
+    </ClInclude>
+    <ClInclude Include="SymTab.h">
+      <Filter>Header Files\Intermediate</Filter>
+    </ClInclude>
+    <ClInclude Include="SymTabStack.h">
+      <Filter>Header Files\Intermediate</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSpec.h">
+      <Filter>Header Files\Intermediate</Filter>
+    </ClInclude>
+    <ClInclude Include="SymTabEntry.h">
+      <Filter>Header Files\Intermediate</Filter>
+    </ClInclude>
+    <ClInclude Include="ICodeFactory.h">
+      <Filter>Header Files\Intermediate</Filter>
+    </ClInclude>
+    <ClInclude Include="ICodeImpl.h">
+      <Filter>Header Files\Intermediate</Filter>
+    </ClInclude>
+    <ClInclude Include="ICodeNodeImpl.h">
+      <Filter>Header Files\Intermediate</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
